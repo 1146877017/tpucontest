@@ -42,7 +42,7 @@
 * 请参考 https://github.com/sophon-ai-algo/tpucontest/blob/main/okkernel/README
 ## 如何编写程序
 * 阅读文档  
-  bm1684contest clone后，用浏览器打开doc/index.html。  
+  阅读 https://doc.sophgo.com/docs/docs_latest_release/okkernel/html/index.html。  
   仔细阅读Introduction至Storage Modes,了解sophgo芯片结构和内存布局。  
   About Function Names至Fixed Point Unary Functions，介绍了编程中所需的所有结构和函数声明,参赛者可在这段文档中查找okkernel/device/*demo.c中用到的各个结构和函数的声明含义。  
 * 参赛者可以参考okkernel/device/*demo.c中的代码，或直接照搬到对应okkernel/device/*contest.c，然后逐步优化代码，进而提升性能，由于softmax的逻辑比较简单，因此没有提供demo，ok_device_softmax_contest.c需要参赛者自己完成。
