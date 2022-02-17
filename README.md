@@ -44,8 +44,8 @@
 * conv2d :  
 (case0:none) ,(case1:none) ,(case2:none) ,(case3:none) ,(case4:none) ,(case5:none) ,(case6:none) ,(case7:none) ,(case8:none) ,(case9:none) ,(case10:none) ,(case11:none) ,(case12:none) ,(case13:none) ,(case14:none) 
 * depthwise :  
-(case0:1137) ,(case1:1385) ,(case2:8133) ,(case3:2059) ,(case4:1380) ,(case5:430) ,(case6:490) ,(case7:250) ,(case8:1184) ,(case9:3376) 
+(case0:1133) ,(case1:1375) ,(case2:8007) ,(case3:2061) ,(case4:1377) ,(case5:430) ,(case6:487) ,(case7:246) ,(case8:1183) ,(case9:3376) 
 * matmul :  
-(case0:2281848) ,(case1:584) ,(case2:1160069) ,(case3:6514) ,(case4:634) ,(case5:421792) ,(case6:717) ,(case7:2934) ,(case8:2760) ,(case9:4320) ,(case10:1829) ,(case11:6854) ,(case12:933) ,(case13:4288) ,(case14:203542) 
+(case0:2284723) ,(case1:611) ,(case2:1160497) ,(case3:6517) ,(case4:633) ,(case5:421770) ,(case6:715) ,(case7:2943) ,(case8:2758) ,(case9:4362) ,(case10:1825) ,(case11:6863) ,(case12:931) ,(case13:4289) ,(case14:203510) 
 * softmax :  
-(case0:7593) ,(case1:6679) ,(case2:127355) ,(case3:81440) ,(case4:100135) 
+(case0:132) ,(case1:99) ,(case2:4850) ,(case3:23286) ,(case4:3712) 
