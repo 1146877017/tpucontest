@@ -1,15 +1,4 @@
 # 参加算能TPU编程大赛赢取大奖
-## Best result:
-* svn update at: "Wed Feb 16 09:09:55 CST 2022"
-* conv2d :  
-(case0:none) ,(case1:none) ,(case2:none) ,(case3:none) ,(case4:none) ,(case5:none) ,(case6:none) ,(case7:none) ,(case8:none) ,(case9:none) ,(case10:none) ,(case11:none) ,(case12:none) ,(case13:none) ,(case14:none) 
-* depthwise :  
-(case0:1126) ,(case1:1385) ,(case2:8153) ,(case3:2062) ,(case4:1387) ,(case5:452) ,(case6:488) ,(case7:309) ,(case8:1190) ,(case9:3345) 
-* matmul :  
-(case0:2280952) ,(case1:602) ,(case2:1162042) ,(case3:6529) ,(case4:653) ,(case5:421277) ,(case6:757) ,(case7:2964) ,(case8:2772) ,(case9:4365) ,(case10:1823) ,(case11:6859) ,(case12:926) ,(case13:4299) ,(case14:203516) 
-* softmax :  
-(case0:7626) ,(case1:6686) ,(case2:137015) ,(case3:2099117) ,(case4:969543) 
-
 ## 竞赛说明
 * 参赛者报名后，使用算能AI芯片指令集对Conv2d、Depthwise2d、Matmul、Softmax算子进行编程，在保证正确性的前提下，我们对参赛者提交代码的性能进行排名，奖励排名靠前的团队或个人。
 * 参赛者只需完成okkernel/device下的ok_device_conv2d_contest.c ok_device_depthwise_contest.c ok_device_matmul_contest.c ok_device_softmax_contest.c 中TODO部分的代码，将此4个文件提交至svn(svn地址和密码在参赛者报名成功后会发送至邮箱)，我们对参赛者提交代码的性能进行排名，奖励排名靠前的团队或个人。
@@ -42,10 +31,21 @@
 * 请参考 https://github.com/sophon-ai-algo/tpucontest/blob/main/okkernel/README
 ## 如何编写程序
 * 阅读文档  
-  阅读 https://doc.sophgo.com/docs/docs_latest_release/okkernel/html/index.html。  
+  bm1684contest clone后，用浏览器打开doc/index.html。  
   仔细阅读Introduction至Storage Modes,了解sophgo芯片结构和内存布局。  
   About Function Names至Fixed Point Unary Functions，介绍了编程中所需的所有结构和函数声明,参赛者可在这段文档中查找okkernel/device/*demo.c中用到的各个结构和函数的声明含义。  
 * 参赛者可以参考okkernel/device/*demo.c中的代码，或直接照搬到对应okkernel/device/*contest.c，然后逐步优化代码，进而提升性能，由于softmax的逻辑比较简单，因此没有提供demo，ok_device_softmax_contest.c需要参赛者自己完成。
 * okkernel/device/*demo.c中的代码只使用了1块local memory,想把tensor切分到不同的tpu可以参考okkernel/device/ok_device_max_pool.c或okkernel/device/ok_device_avg_pool.c
 ## 联系我们
 ![图片说明](https://github.com/sophon-ai-algo/bm1684contest/blob/main/pic/contact_us.jpg)
+  
+## Best result:
+* svn update at: "Thu
+* conv2d :  
+(case0:none) ,(case1:none) ,(case2:none) ,(case3:none) ,(case4:none) ,(case5:none) ,(case6:none) ,(case7:none) ,(case8:none) ,(case9:none) ,(case10:none) ,(case11:none) ,(case12:none) ,(case13:none) ,(case14:none) 
+* depthwise :  
+(case0:1137) ,(case1:1385) ,(case2:8133) ,(case3:2059) ,(case4:1380) ,(case5:430) ,(case6:490) ,(case7:250) ,(case8:1184) ,(case9:3376) 
+* matmul :  
+(case0:2281848) ,(case1:584) ,(case2:1160069) ,(case3:6514) ,(case4:634) ,(case5:421792) ,(case6:717) ,(case7:2934) ,(case8:2760) ,(case9:4320) ,(case10:1829) ,(case11:6854) ,(case12:933) ,(case13:4288) ,(case14:203542) 
+* softmax :  
+(case0:7593) ,(case1:6679) ,(case2:127355) ,(case3:81440) ,(case4:100135) 
