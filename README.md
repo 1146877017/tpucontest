@@ -1,16 +1,14 @@
 # 参加算能TPU编程大赛赢取大奖
-
 ## Best result:
-* svn update at: "Fri Feb 18 09:28:39 CST 2022"
-* Best score is 85
+* svn update at: "Fri Feb 18 18:15:38 CST 2022"
 * conv2d :  
-(case0:none) ,(case1:none) ,(case2:none) ,(case3:none) ,(case4:none) ,(case5:6428) ,(case6:none) ,(case7:none) ,(case8:4834) ,(case9:1439) ,(case10:none) ,(case11:none) ,(case12:none) ,(case13:none) ,(case14:none) 
+(case0:none) ,(case1:none) ,(case2:none) ,(case3:none) ,(case4:none) ,(case5:6466) ,(case6:none) ,(case7:none) ,(case8:4872) ,(case9:1473) ,(case10:none) ,(case11:none) ,(case12:none) ,(case13:none) ,(case14:none) 
 * depthwise :  
-(case0:1128) ,(case1:1388) ,(case2:8005) ,(case3:2043) ,(case4:1367) ,(case5:385) ,(case6:403) ,(case7:198) ,(case8:1129) ,(case9:3331) 
+(case0:1133) ,(case1:1386) ,(case2:8008) ,(case3:2066) ,(case4:1379) ,(case5:380) ,(case6:428) ,(case7:200) ,(case8:1127) ,(case9:3379) 
 * matmul :  
-(case0:2286818) ,(case1:500) ,(case2:1159505) ,(case3:6493) ,(case4:609) ,(case5:421637) ,(case6:696) ,(case7:2947) ,(case8:1890) ,(case9:4373) ,(case10:1825) ,(case11:2638) ,(case12:930) ,(case13:4373) ,(case14:203508) 
+(case0:2286730) ,(case1:521) ,(case2:1160814) ,(case3:6518) ,(case4:610) ,(case5:421669) ,(case6:702) ,(case7:2946) ,(case8:1897) ,(case9:2773) ,(case10:1824) ,(case11:2645) ,(case12:744) ,(case13:3469) ,(case14:203521) 
 * softmax :  
-(case0:131) ,(case1:95) ,(case2:4823) ,(case3:23261) ,(case4:3683) 
+(case0:165) ,(case1:75) ,(case2:4855) ,(case3:23290) ,(case4:3712) 
 ## 竞赛说明
 * 参赛者报名后，使用算能AI芯片指令集对Conv2d、Depthwise2d、Matmul、Softmax算子进行编程，在保证正确性的前提下，我们对参赛者提交代码的性能进行排名，奖励排名靠前的团队或个人。
 * 参赛者只需完成okkernel/device下的ok_device_conv2d_contest.c ok_device_depthwise_contest.c ok_device_matmul_contest.c ok_device_softmax_contest.c 中TODO部分的代码，将此4个文件提交至svn(svn地址和密码在参赛者报名成功后会发送至邮箱)，我们对参赛者提交代码的性能进行排名，奖励排名靠前的团队或个人。
@@ -50,4 +48,3 @@
 * okkernel/device/*demo.c中的代码只使用了1块local memory,想把tensor切分到不同的tpu可以参考okkernel/device/ok_device_max_pool.c或okkernel/device/ok_device_avg_pool.c
 ## 联系我们
 ![图片说明](https://github.com/sophon-ai-algo/bm1684contest/blob/main/pic/contact_us.jpg)
-  
