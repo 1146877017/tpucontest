@@ -1,6 +1,6 @@
 # 参加算能TPU编程大赛赢取大奖
 ## Best result:
-* svn update at: "Thu
+* svn update at: "Thu Feb 17 21:46:34 CST 2022"
 * conv2d :  
 (case0:none) ,(case1:none) ,(case2:none) ,(case3:none) ,(case4:none) ,(case5:none) ,(case6:none) ,(case7:none) ,(case8:none) ,(case9:none) ,(case10:none) ,(case11:none) ,(case12:none) ,(case13:none) ,(case14:none) 
 * depthwise :  
