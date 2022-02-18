@@ -1,4 +1,14 @@
 # 参加算能TPU编程大赛赢取大奖
+## Best result:
+* svn update at: "Thu
+* conv2d :  
+(case0:none) ,(case1:none) ,(case2:none) ,(case3:none) ,(case4:none) ,(case5:none) ,(case6:none) ,(case7:none) ,(case8:none) ,(case9:none) ,(case10:none) ,(case11:none) ,(case12:none) ,(case13:none) ,(case14:none) 
+* depthwise :  
+(case0:1133) ,(case1:1375) ,(case2:8007) ,(case3:2061) ,(case4:1377) ,(case5:430) ,(case6:487) ,(case7:246) ,(case8:1183) ,(case9:3376) 
+* matmul :  
+(case0:2284723) ,(case1:611) ,(case2:1160497) ,(case3:6517) ,(case4:633) ,(case5:421770) ,(case6:715) ,(case7:2943) ,(case8:2758) ,(case9:4362) ,(case10:1825) ,(case11:6863) ,(case12:931) ,(case13:4289) ,(case14:203510) 
+* softmax :  
+(case0:132) ,(case1:99) ,(case2:4850) ,(case3:23286) ,(case4:3712) 
 ## 竞赛说明
 * 参赛者报名后，使用算能AI芯片指令集对Conv2d、Depthwise2d、Matmul、Softmax算子进行编程，在保证正确性的前提下，我们对参赛者提交代码的性能进行排名，奖励排名靠前的团队或个人。
 * 参赛者只需完成okkernel/device下的ok_device_conv2d_contest.c ok_device_depthwise_contest.c ok_device_matmul_contest.c ok_device_softmax_contest.c 中TODO部分的代码，将此4个文件提交至svn(svn地址和密码在参赛者报名成功后会发送至邮箱)，我们对参赛者提交代码的性能进行排名，奖励排名靠前的团队或个人。
@@ -39,13 +49,3 @@
 ## 联系我们
 ![图片说明](https://github.com/sophon-ai-algo/bm1684contest/blob/main/pic/contact_us.jpg)
   
-## Best result:
-* svn update at: "Thu
-* conv2d :  
-(case0:none) ,(case1:none) ,(case2:none) ,(case3:none) ,(case4:none) ,(case5:none) ,(case6:none) ,(case7:none) ,(case8:none) ,(case9:none) ,(case10:none) ,(case11:none) ,(case12:none) ,(case13:none) ,(case14:none) 
-* depthwise :  
-(case0:1133) ,(case1:1375) ,(case2:8007) ,(case3:2061) ,(case4:1377) ,(case5:430) ,(case6:487) ,(case7:246) ,(case8:1183) ,(case9:3376) 
-* matmul :  
-(case0:2284723) ,(case1:611) ,(case2:1160497) ,(case3:6517) ,(case4:633) ,(case5:421770) ,(case6:715) ,(case7:2943) ,(case8:2758) ,(case9:4362) ,(case10:1825) ,(case11:6863) ,(case12:931) ,(case13:4289) ,(case14:203510) 
-* softmax :  
-(case0:132) ,(case1:99) ,(case2:4850) ,(case3:23286) ,(case4:3712) 
