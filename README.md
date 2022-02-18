@@ -49,3 +49,13 @@
 ## 联系我们
 ![图片说明](https://github.com/sophon-ai-algo/bm1684contest/blob/main/pic/contact_us.jpg)
   
+## Best result:
+* svn update at: "Fri Feb 18 09:28:39 CST 2022"
+* conv2d :  
+(case0:none) ,(case1:none) ,(case2:none) ,(case3:none) ,(case4:none) ,(case5:6428) ,(case6:none) ,(case7:none) ,(case8:4834) ,(case9:1439) ,(case10:none) ,(case11:none) ,(case12:none) ,(case13:none) ,(case14:none) 
+* depthwise :  
+(case0:1128) ,(case1:1388) ,(case2:8005) ,(case3:2043) ,(case4:1367) ,(case5:385) ,(case6:403) ,(case7:198) ,(case8:1129) ,(case9:3331) 
+* matmul :  
+(case0:2286818) ,(case1:500) ,(case2:1159505) ,(case3:6493) ,(case4:609) ,(case5:421637) ,(case6:696) ,(case7:2947) ,(case8:1890) ,(case9:4373) ,(case10:1825) ,(case11:2638) ,(case12:930) ,(case13:4373) ,(case14:203508) 
+* softmax :  
+(case0:131) ,(case1:95) ,(case2:4823) ,(case3:23261) ,(case4:3683) 
