@@ -1,13 +1,13 @@
 # 参加算能TPU编程大赛赢取大奖
 ## Best result:
-* Best score is 127
-* svn update at: "Mon Feb 21 10:33:15 CST 2022"
+* Best score is 123
+* svn update at: "Mon
 * conv2d :  
-(case0:10892) ,(case1:111152) ,(case2:114775) ,(case3:3317) ,(case4:4521) ,(case5:6456) ,(case6:1621) ,(case7:3704) ,(case8:3872) ,(case9:1463) ,(case10:6950) ,(case11:none) ,(case12:none) ,(case13:none) ,(case14:none) 
+(case0:10911) ,(case1:111153) ,(case2:114607) ,(case3:3314) ,(case4:4520) ,(case5:6440) ,(case6:1604) ,(case7:3679) ,(case8:3864) ,(case9:1440) ,(case10:6893) ,(case11:none) ,(case12:none) ,(case13:none) ,(case14:none) 
 * depthwise :  
-(case0:1131) ,(case1:1386) ,(case2:8066) ,(case3:2068) ,(case4:1381) ,(case5:355) ,(case6:441) ,(case7:194) ,(case8:1114) ,(case9:3385) 
+(case0:1106) ,(case1:1351) ,(case2:7967) ,(case3:2017) ,(case4:1340) ,(case5:364) ,(case6:433) ,(case7:195) ,(case8:1128) ,(case9:3319) 
 * matmul :  
-(case0:2283016) ,(case1:536) ,(case2:1160513) ,(case3:4079) ,(case4:577) ,(case5:421846) ,(case6:716) ,(case7:2154) ,(case8:1919) ,(case9:2002) ,(case10:1773) ,(case11:2646) ,(case12:531) ,(case13:2251) ,(case14:188037) 
+(case0:2286940) ,(case1:534) ,(case2:1160133) ,(case3:4085) ,(case4:576) ,(case5:421693) ,(case6:717) ,(case7:2155) ,(case8:1921) ,(case9:2001) ,(case10:1774) ,(case11:2645) ,(case12:527) ,(case13:2254) ,(case14:188037) 
 * softmax :  
 (case0:149) ,(case1:76) ,(case2:2614) ,(case3:13168) ,(case4:824) 
 ## 竞赛说明
