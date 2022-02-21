@@ -1,16 +1,15 @@
 # 参加算能TPU编程大赛赢取大奖
 ## Best result:
-* svn update at: "Mon Feb 21 09:24:13 CST 2022"
-* Best score is 123
+* Best score is 127
+* svn update at: "Mon Feb 21 10:33:15 CST 2022"
 * conv2d :  
-(case0:10873) ,(case1:111168) ,(case2:114698) ,(case3:3313) ,(case4:4520) ,(case5:6453) ,(case6:1612) ,(case7:3690) ,(case8:3864) ,(case9:1466) ,(case10:6969) ,(case11:none) ,(case12:none) ,(case13:none) ,(case14:none) 
+(case0:10892) ,(case1:111152) ,(case2:114775) ,(case3:3317) ,(case4:4521) ,(case5:6456) ,(case6:1621) ,(case7:3704) ,(case8:3872) ,(case9:1463) ,(case10:6950) ,(case11:none) ,(case12:none) ,(case13:none) ,(case14:none) 
 * depthwise :  
-(case0:1129) ,(case1:1388) ,(case2:8002) ,(case3:2065) ,(case4:1375) ,(case5:359) ,(case6:430) ,(case7:196) ,(case8:1118) ,(case9:3439) 
+(case0:1131) ,(case1:1386) ,(case2:8066) ,(case3:2068) ,(case4:1381) ,(case5:355) ,(case6:441) ,(case7:194) ,(case8:1114) ,(case9:3385) 
 * matmul :  
-(case0:2287044) ,(case1:507) ,(case2:1160249) ,(case3:4057) ,(case4:573) ,(case5:421756) ,(case6:698) ,(case7:2127) ,(case8:1892) ,(case9:1973) ,(case10:1750) ,(case11:2614) ,(case12:502) ,(case13:2217) ,(case14:203513) 
+(case0:2283016) ,(case1:536) ,(case2:1160513) ,(case3:4079) ,(case4:577) ,(case5:421846) ,(case6:716) ,(case7:2154) ,(case8:1919) ,(case9:2002) ,(case10:1773) ,(case11:2646) ,(case12:531) ,(case13:2251) ,(case14:188037) 
 * softmax :  
-(case0:143) ,(case1:74) ,(case2:2611) ,(case3:13175) ,(case4:826) 
-## 竞赛说明
+(case0:149) ,(case1:76) ,(case2:2614) ,(case3:13168) ,(case4:824) ## 竞赛说明
 * 参赛者报名后，使用算能AI芯片指令集对Conv2d、Depthwise2d、Matmul、Softmax算子进行编程，在保证正确性的前提下，我们对参赛者提交代码的性能进行排名，奖励排名靠前的团队或个人。
 * 参赛者只需完成okkernel/device下的ok_device_conv2d_contest.c ok_device_depthwise_contest.c ok_device_matmul_contest.c ok_device_softmax_contest.c 中TODO部分的代码，将此4个文件提交至svn(svn地址和密码在参赛者报名成功后会发送至邮箱)，我们对参赛者提交代码的性能进行排名，奖励排名靠前的团队或个人。
 ## 报名入口
@@ -42,7 +41,7 @@
 * 请参考 https://github.com/sophon-ai-algo/tpucontest/blob/main/okkernel/README
 ## 如何编写程序
 * 阅读文档  
-  bm1684contest clone后，用浏览器打开doc/index.html。  
+  阅读 https://doc.sophgo.com/docs/docs_latest_release/okkernel/html/index.html。
   仔细阅读Introduction至Storage Modes,了解sophgo芯片结构和内存布局。  
   About Function Names至Fixed Point Unary Functions，介绍了编程中所需的所有结构和函数声明,参赛者可在这段文档中查找okkernel/device/*demo.c中用到的各个结构和函数的声明含义。  
 * 参赛者可以参考okkernel/device/*demo.c中的代码，或直接照搬到对应okkernel/device/*contest.c，然后逐步优化代码，进而提升性能，由于softmax的逻辑比较简单，因此没有提供demo，ok_device_softmax_contest.c需要参赛者自己完成。
