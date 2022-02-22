@@ -9,7 +9,8 @@
 * matmul :  
 (case0:2286145) ,(case1:536) ,(case2:1159660) ,(case3:4083) ,(case4:581) ,(case5:421402) ,(case6:690) ,(case7:2160) ,(case8:1928) ,(case9:2005) ,(case10:1781) ,(case11:2642) ,(case12:535) ,(case13:2252) ,(case14:188036) 
 * softmax :  
-(case0:127) ,(case1:73) ,(case2:2613) ,(case3:13137) ,(case4:822) ## 竞赛说明
+(case0:127) ,(case1:73) ,(case2:2613) ,(case3:13137) ,(case4:822) 
+## 竞赛说明
 * 参赛者报名后，使用算能AI芯片指令集对Conv2d、Depthwise2d、Matmul、Softmax算子进行编程，在保证正确性的前提下，我们对参赛者提交代码的性能进行排名，奖励排名靠前的团队或个人。
 * 参赛者只需完成okkernel/device下的ok_device_conv2d_contest.c ok_device_depthwise_contest.c ok_device_matmul_contest.c ok_device_softmax_contest.c 中TODO部分的代码，将此4个文件提交至svn(svn地址和密码在参赛者报名成功后会发送至邮箱)，我们对参赛者提交代码的性能进行排名，奖励排名靠前的团队或个人。
 ## 报名入口
