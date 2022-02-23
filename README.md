@@ -1,7 +1,7 @@
 # 参加算能TPU编程大赛赢取大奖
 ## Best result:
 * Best score is 163
-* svn update at: "Wed
+* svn update at: "Wed Feb 23 14:10:47 CST 2022"
 * conv2d :  
 (case0:6806) ,(case1:107288) ,(case2:114649) ,(case3:3227) ,(case4:4434) ,(case5:6462) ,(case6:1483) ,(case7:3576) ,(case8:3490) ,(case9:1121) ,(case10:6063) ,(case11:none) ,(case12:none) ,(case13:none) ,(case14:none) 
 * depthwise :  
