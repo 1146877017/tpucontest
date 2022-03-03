@@ -1,4 +1,6 @@
 #!/bin/bash
+sudo apt-get install git-lfs
+git lfs install
 CURRENT_DIR=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
 cd $CURRENT_DIR/../
 git clone https://github.com/sophon-ai-algo/toolchains_dir
