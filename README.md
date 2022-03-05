@@ -1,4 +1,4 @@
-# 参加算能TPU编程大赛赢取大奖
+# 参加TPU编程大赛赢取大奖
 ## Best result:
 * Best score is 226
 * svn update at: "Sat Mar  5 13:56:14 CST 2022"
