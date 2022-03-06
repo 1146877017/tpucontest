@@ -1,7 +1,7 @@
 # 参加TPU编程大赛赢取大奖
 ## Best result:
 * Best score is 211
-* svn update at: "Sun
+* svn update at: "Sun Mar  6 14:05:22 CST 2022"
 * conv2d :  
 (case0:4941) ,(case1:100236) ,(case2:84289) ,(case3:2638) ,(case4:4238) ,(case5:6137) ,(case6:1120) ,(case7:2609) ,(case8:3086) ,(case9:1069) ,(case10:4884) ,(case11:1011824) ,(case12:351201) ,(case13:1954061) ,(case14:54875) 
 * depthwise :  
@@ -9,7 +9,8 @@
 * matmul :  
 (case0:785046) ,(case1:420) ,(case2:198887) ,(case3:3774) ,(case4:255) ,(case5:73370) ,(case6:539) ,(case7:1877) ,(case8:1465) ,(case9:1809) ,(case10:1375) ,(case11:2428) ,(case12:469) ,(case13:2041) ,(case14:35420) 
 * softmax :  
-(case0:108) ,(case1:55) ,(case2:294) ,(case3:315) ,(case4:121) ## 竞赛说明
+(case0:108) ,(case1:55) ,(case2:294) ,(case3:315) ,(case4:121) 
+## 竞赛说明
 * 参赛者报名后，使用算能AI芯片指令集对Conv2d、Depthwise2d、Matmul、Softmax算子进行编程，在保证正确性的前提下，我们对参赛者提交代码的性能进行排名，奖励排名靠前的团队或个人。
 * 参赛者只需完成okkernel/device下的ok_device_conv2d_contest.c ok_device_depthwise_contest.c ok_device_matmul_contest.c ok_device_softmax_contest.c 中TODO部分的代码，将此4个文件提交至svn(svn地址和密码在参赛者报名成功后会发送至邮箱)，我们对参赛者提交代码的性能进行排名，奖励排名靠前的团队或个人。
 ## 报名入口
