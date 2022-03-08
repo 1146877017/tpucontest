@@ -1,4 +1,4 @@
-# 参加算能TPU编程大赛赢取大奖
+# 参加TPU编程大赛赢取大奖
 ## Best result:
 * Best score is 218
 * svn update at: "Tue
@@ -9,7 +9,8 @@
 * matmul :  
 (case0:636316) ,(case1:424) ,(case2:161625) ,(case3:3847) ,(case4:270) ,(case5:60327) ,(case6:503) ,(case7:1766) ,(case8:1473) ,(case9:1735) ,(case10:1346) ,(case11:2413) ,(case12:499) ,(case13:2096) ,(case14:35529) 
 * softmax :  
-(case0:103) ,(case1:60) ,(case2:241) ,(case3:269) ,(case4:121) ## 竞赛说明
+(case0:103) ,(case1:60) ,(case2:241) ,(case3:269) ,(case4:121) 
+## 竞赛说明
 * 参赛者报名后，使用算能AI芯片指令集对Conv2d、Depthwise2d、Matmul、Softmax算子进行编程，在保证正确性的前提下，我们对参赛者提交代码的性能进行排名，奖励排名靠前的团队或个人。
 * 参赛者只需完成okkernel/device下的ok_device_conv2d_contest.c ok_device_depthwise_contest.c ok_device_matmul_contest.c ok_device_softmax_contest.c 中TODO部分的代码，将此4个文件提交至svn(svn地址和密码在参赛者报名成功后会发送至邮箱)，我们对参赛者提交代码的性能进行排名，奖励排名靠前的团队或个人。
 ## 报名入口
