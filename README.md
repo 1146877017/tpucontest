@@ -1,15 +1,15 @@
 # 参加TPU编程大赛赢取大奖
 ## Best result:
-* Best score is 231
-* svn update at: "Wed Mar  9 09:12:08 CST 2022"
+* Best score is 237
+* svn update at: "Wed Mar  9 11:29:10 CST 2022"
 * conv2d :  
-(case0:4391) ,(case1:98432) ,(case2:79542) ,(case3:2601) ,(case4:4242) ,(case5:6138) ,(case6:1031) ,(case7:2383) ,(case8:3090) ,(case9:1066) ,(case10:4195) ,(case11:212790) ,(case12:70631) ,(case13:462306) ,(case14:47924) 
+(case0:4391) ,(case1:98432) ,(case2:79544) ,(case3:2601) ,(case4:4241) ,(case5:6141) ,(case6:1043) ,(case7:2381) ,(case8:3093) ,(case9:1065) ,(case10:4209) ,(case11:212789) ,(case12:70627) ,(case13:462347) ,(case14:47925) 
 * depthwise :  
-(case0:457) ,(case1:553) ,(case2:1415) ,(case3:1782) ,(case4:1139) ,(case5:349) ,(case6:364) ,(case7:157) ,(case8:1035) ,(case9:2936) 
+(case0:452) ,(case1:551) ,(case2:1411) ,(case3:1801) ,(case4:1141) ,(case5:352) ,(case6:363) ,(case7:145) ,(case8:1033) ,(case9:2979) 
 * matmul :  
-(case0:374648) ,(case1:419) ,(case2:95784) ,(case3:3804) ,(case4:262) ,(case5:46451) ,(case6:503) ,(case7:1760) ,(case8:1471) ,(case9:1729) ,(case10:1343) ,(case11:2417) ,(case12:509) ,(case13:2095) ,(case14:35565) 
+(case0:374136) ,(case1:422) ,(case2:95630) ,(case3:3876) ,(case4:254) ,(case5:46470) ,(case6:499) ,(case7:1760) ,(case8:1472) ,(case9:1734) ,(case10:1346) ,(case11:2368) ,(case12:497) ,(case13:2108) ,(case14:35567) 
 * softmax :  
-(case0:115) ,(case1:54) ,(case2:165) ,(case3:194) ,(case4:107) 
+(case0:114) ,(case1:54) ,(case2:167) ,(case3:194) ,(case4:107) 
 ## 竞赛说明
 * 参赛者报名后，使用算能AI芯片指令集对Conv2d、Depthwise2d、Matmul、Softmax算子进行编程，在保证正确性的前提下，我们对参赛者提交代码的性能进行排名，奖励排名靠前的团队或个人。
 * 参赛者只需完成okkernel/device下的ok_device_conv2d_contest.c ok_device_depthwise_contest.c ok_device_matmul_contest.c ok_device_softmax_contest.c 中TODO部分的代码，将此4个文件提交至svn(svn地址和密码在参赛者报名成功后会发送至邮箱)，我们对参赛者提交代码的性能进行排名，奖励排名靠前的团队或个人。
@@ -49,3 +49,4 @@
 * okkernel/device/*demo.c中的代码只使用了1块local memory,想把tensor切分到不同的tpu可以参考okkernel/device/ok_device_max_pool.c或okkernel/device/ok_device_avg_pool.c
 ## 联系我们
 ![图片说明](https://github.com/sophon-ai-algo/bm1684contest/blob/main/pic/contact_us.jpg)
+
