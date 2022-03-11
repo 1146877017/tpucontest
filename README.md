@@ -1,15 +1,15 @@
 # 参加TPU编程大赛赢取大奖
 ## Best result:
-* Best score is 223
-* svn update at: "Thu Mar 10 11:20:23 CST 2022"
+* Best score is 227
+* svn update at: "Fri
 * conv2d :  
-(case0:4444) ,(case1:98435) ,(case2:79540) ,(case3:2575) ,(case4:4243) ,(case5:6161) ,(case6:1042) ,(case7:2392) ,(case8:3090) ,(case9:1075) ,(case10:4242) ,(case11:212826) ,(case12:70669) ,(case13:462357) ,(case14:47953) 
+(case0:4388) ,(case1:98436) ,(case2:79428) ,(case3:2578) ,(case4:4242) ,(case5:6164) ,(case6:1045) ,(case7:2391) ,(case8:3094) ,(case9:1076) ,(case10:4230) ,(case11:212817) ,(case12:70655) ,(case13:462314) ,(case14:47945) 
 * depthwise :  
-(case0:462) ,(case1:556) ,(case2:1435) ,(case3:1790) ,(case4:1138) ,(case5:352) ,(case6:358) ,(case7:156) ,(case8:1035) ,(case9:2930) 
+(case0:456) ,(case1:553) ,(case2:1379) ,(case3:1810) ,(case4:1154) ,(case5:346) ,(case6:358) ,(case7:145) ,(case8:1032) ,(case9:2946) 
 * matmul :  
-(case0:374122) ,(case1:420) ,(case2:95674) ,(case3:3841) ,(case4:268) ,(case5:41255) ,(case6:502) ,(case7:1763) ,(case8:1487) ,(case9:1733) ,(case10:1347) ,(case11:2370) ,(case12:496) ,(case13:2090) ,(case14:35500) 
+(case0:359593) ,(case1:418) ,(case2:86814) ,(case3:3814) ,(case4:249) ,(case5:39719) ,(case6:505) ,(case7:1763) ,(case8:1485) ,(case9:1733) ,(case10:1343) ,(case11:2363) ,(case12:495) ,(case13:2067) ,(case14:35459) 
 * softmax :  
-(case0:97) ,(case1:52) ,(case2:178) ,(case3:194) ,(case4:101) 
+(case0:112) ,(case1:54) ,(case2:168) ,(case3:196) ,(case4:104) 
 ## 竞赛说明
 * 参赛者报名后，使用算能AI芯片指令集对Conv2d、Depthwise2d、Matmul、Softmax算子进行编程，在保证正确性的前提下，我们对参赛者提交代码的性能进行排名，奖励排名靠前的团队或个人。
 * 参赛者只需完成okkernel/device下的ok_device_conv2d_contest.c ok_device_depthwise_contest.c ok_device_matmul_contest.c ok_device_softmax_contest.c 中TODO部分的代码，将此4个文件提交至svn(svn地址和密码在参赛者报名成功后会发送至邮箱)，我们对参赛者提交代码的性能进行排名，奖励排名靠前的团队或个人。
