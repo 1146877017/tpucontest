@@ -1,7 +1,7 @@
 # 参加TPU编程大赛赢取大奖
 ## Best result:
 * Best score is 228
-* svn update at: "Sun
+* svn update at: "Sun Mar 13 18:21:14 CST 2022"
 * conv2d :  
 (case0:4357) ,(case1:98404) ,(case2:79396) ,(case3:2546) ,(case4:4232) ,(case5:6126) ,(case6:1014) ,(case7:2360) ,(case8:3081) ,(case9:1039) ,(case10:4188) ,(case11:212782) ,(case12:72291) ,(case13:462322) ,(case14:47917) 
 * depthwise :  
